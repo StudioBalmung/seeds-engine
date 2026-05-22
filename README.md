@@ -96,7 +96,7 @@ int main() {
 }
 ```
 
-## C ABI (FFI) — for C#, Rust, Zig, Lua, Java, JavaScript
+## C ABI (FFI) - for C#, Rust, Zig, Lua, Java, JavaScript
 
 Link against `libseeds_engine_c.dll/.so` and include `seeds_engine_c.h`.
 
@@ -124,7 +124,7 @@ int main(void) {
 }
 ```
 
-### C# (.NET 10+)
+### C# 
 ```csharp
 using System.Runtime.InteropServices;
 
@@ -143,7 +143,7 @@ partial class SeedsEngine {
 }
 ```
 
-### Rust (1.95+)
+### Rust 
 ```rust
 extern "C" {
     fn seeds_create(seed: i32, w: i32, h: i32, tick_min: i32) -> *mut std::ffi::c_void;
@@ -161,7 +161,7 @@ defer c.seeds_destroy(engine);
 c.seeds_step(engine, 10);
 ```
 
-### Lua (5.5+ FFI)
+### Lua (FFI)
 ```lua
 local ffi = require("ffi")
 ffi.cdef[[ /* paste seeds_engine_c.h declarations */ ]]
