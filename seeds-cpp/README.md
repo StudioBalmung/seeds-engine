@@ -1,4 +1,4 @@
-# Seeds Engine (Simulation Ecology Entity Dynamic System) — C++20
+# Seeds Engine (Simulation Ecology Entity Dynamic System) - C++20
 
 Seeds Engine is a backend-ready, header-only C++20 simulation library for sandbox simulations and game embedding.
 It focuses on deterministic, seeded ecology simulation with extensible subsystems for world state, organisms, genetics, physiology, behavior, ecology, storage, and analytics.
