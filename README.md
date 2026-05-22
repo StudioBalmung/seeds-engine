@@ -31,7 +31,6 @@ It ships as a **shared/dynamic library** (`.dll` / `.so` / `.dylib`) with an opt
 
 - **C++20** compiler (GCC 11+, Clang 14+, MSVC 2022+)
 - **CMake 3.20+**
-- No external dependencies
 
 ## Build & Run
 
