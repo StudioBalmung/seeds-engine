@@ -71,7 +71,7 @@ Disable optional targets: `cmake -B build -DSEEDS_BUILD_CAPI=OFF -DSEEDS_BUILD_D
 | `seeds_debugger` | Interactive debugger CLI |
 | `seeds_tests` | Test suite |
 
-## C++ embedding example
+## C++ Embedding Example
 
 ```cpp
 #include <seeds_engine/seeds_engine.hpp>
