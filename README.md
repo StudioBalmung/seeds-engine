@@ -6,11 +6,11 @@ It ships as a **shared/dynamic library** (`.dll` / `.so` / `.dylib`) with an opt
 
 ## What's new in v1.0.0
 
-- **C ABI** — `seeds_engine_c.h` / `libseeds_engine_c.dll` for embedding from C#, Rust, Zig, Lua, Java, and JavaScript
-- **Faith module** — NPC religion/belief simulation with devotion, rituals, conversion, and behavior modifiers
-- **MCP Server** — JSON-RPC 2.0 Model Context Protocol server for AI assistant / LLM tool-calling integration
-- **Debugger Tool** — standalone interactive CLI debugger with breakpoints, watch list, and event logging
-- **Bug fixes** — deferred death processing to prevent iterator invalidation; safe organism lookup during step
+- **C ABI** - `seeds_engine_c.h` / `libseeds_engine_c.dll` for embedding from C#, Rust, Zig, Lua, Java, and JavaScript
+- **Faith module** - NPC religion/belief simulation with devotion, rituals, conversion, and behavior modifiers
+- **MCP Server** - JSON-RPC 2.0 Model Context Protocol server for AI assistant / LLM tool-calling integration
+- **Debugger Tool** - standalone interactive CLI debugger with breakpoints, watch list, and event logging
+- **Bug fixes** - deferred death processing to prevent iterator invalidation; safe organism lookup during step
 
 ## Backend layers
 
